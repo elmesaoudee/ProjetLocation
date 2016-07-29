@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('admin', function () {
+    return view('admin_views.admin_template');
+});
+Route::get('categories', 'CategoriesController@index');

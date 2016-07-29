@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c284a9c122da36c99a8b6597bdce7aa6",
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "hash": "26abfd48208830a813ea66a566f17e3e",
+    "content-hash": "0959a28db415d905edf28d1c882d0af5",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -60,6 +60,72 @@
                 "preload"
             ],
             "time": "2015-11-09 22:51:51"
+        },
+        {
+            "name": "devio/eavquent",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IsraelOrtuno/Eavquent.git",
+                "reference": "3f60f7d69cc4e73f80232bc679e3826f745cf430"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IsraelOrtuno/Eavquent/zipball/3f60f7d69cc4e73f80232bc679e3826f745cf430",
+                "reference": "3f60f7d69cc4e73f80232bc679e3826f745cf430",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5.1",
+                "illuminate/database": "~5.1",
+                "illuminate/support": "~5.1",
+                "illuminate/validation": "~5.1",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.4",
+                "mockery/mockery": "^0.9.4",
+                "orchestra/testbench": "~3.1",
+                "phpspec/phpspec": "^2.4",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "classmap": [
+                    "migrations"
+                ],
+                "psr-4": {
+                    "Devio\\Eavquent\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Israel Ortuño",
+                    "email": "israel@devio.es"
+                }
+            ],
+            "description": "EAV modeling package for Eloquent and Laravel.",
+            "keywords": [
+                "database",
+                "dynamic",
+                "eav",
+                "eloquent",
+                "laravel",
+                "schema"
+            ],
+            "time": "2016-04-15 10:51:16"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
