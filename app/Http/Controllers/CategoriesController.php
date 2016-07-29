@@ -10,8 +10,7 @@ use App\Category;
 class CategoriesController extends Controller
 {
     public function index(){
-        $category = Category::first();
-
-        echo $category->SubCategories;
+        $category = Category::find(5);
+        echo $category->ParentCategory;
     }
 }
